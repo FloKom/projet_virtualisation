@@ -1,0 +1,10 @@
+[Unit]
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/check.sh
+
+[Install]
+WantedBy=default.target
+
+
